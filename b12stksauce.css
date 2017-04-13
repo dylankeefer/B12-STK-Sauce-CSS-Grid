@@ -20,7 +20,7 @@ CONTENTS:
 /*GLOBAL*/
 body {width:100%; float:left; margin:0; overflow-x:hidden;}
 
-.b-sld-clr div div {background-color:grey; padding:1%; margin:0 1%;}
+.b-sld-clr div div {background-color:#4d1f00; padding:1%; margin:0 1%;}
 	/*.b-sld-clr div div:nth-child(odd) {}
 	.b-sld-clr div div:nth-child(even) {}*/
 
