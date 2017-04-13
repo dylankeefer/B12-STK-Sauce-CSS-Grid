@@ -1,0 +1,102 @@
+/* ---------------------------------------------------------
+Style Sheet for B12 STK Sauce CSS Grid
+
+version: 0.1
+last modified: 04.12.2017 by Dylan Keefer
+author: Dylan Keefer
+email: dylan.keefer@gmail.com
+website: http://dylankeefer.com
+----------------------------------------------------------*/
+
+/* ---------------------------------------------------------
+CONTENTS:
+=XS
+=SM
+=MD
+=LG
+=XL
+----------------------------------------------------------*/
+
+/*GLOBAL*/
+body {width:100%; float:left; margin:0; overflow-x:hidden;}
+
+.b-sld-clr div div {background-color:grey; padding:1%; margin:0 1%;}
+	/*.b-sld-clr div div:nth-child(odd) {}
+	.b-sld-clr div div:nth-child(even) {}*/
+
+.b-row {width:100%; float:left; margin:20px 0;}
+
+/*PLAIN HTML*/
+.b-1 {width:4.333%; float:left;}
+.b-2 {width:12.666%; float:left;}
+.b-3 {width:21%; float:left;}
+.b-4 {width:29.333%; float:left;}
+.b-5 {width:37.666%; float:left;}
+.b-6 {width:46%; float:left;}
+.b-7 {width:54.333%; float:left;}
+.b-8 {width:62.666%; float:left;}
+.b-9 {width:71%; float:left;}
+.b-10 {width:79.333%; float:left;}
+.b-11 {width:87.666%; float:left;}
+.b-12 {width:96%; float:left; margin:0 2%;}
+
+/*WORDPRESS
+.b-1 {width:6.333%; float:left;}
+.b-2 {width:14.666%; float:left;}
+.b-3 {width:23%; float:left;}
+.b-4 {width:31.333%; float:left;}
+.b-5 {width:39.666%; float:left;}
+.b-6 {width:48%; float:left;}
+.b-7 {width:56.333%; float:left;}
+.b-8 {width:64.666%; float:left;}
+.b-9 {width:73%; float:left;}
+.b-10 {width:81.333%; float:left;}
+.b-11 {width:89.666%; float:left;}
+.b-12 {width:98%; float:left; margin:0 2%;}*/
+
+.blt {padding:4%;}
+.brt {padding:4%;}
+.bli img {margin:0 auto; display:block;}
+.bri img {margin:0 auto; display:block;}
+
+.lbb {margin-bottom:20px;}
+.lbt {margin-top:20px;}
+
+.centered {text-align:center;}
+.img-centered {margin:0 auto; display:block;}
+
+.hide-on-desktop {display:block;}
+.hide-on-mobile {display:none;}
+
+/*XS*/
+@media (max-width: 480px) {
+.xs .b-1, .xs .b-2, .xs .b-3, .xs .b-4, .xs .b-5, .xs .b-6, .xs .b-7, .xs .b-8, .xs .b-9, .xs .b-10 {width:100%;}
+}
+
+/*SM*/
+@media (max-width: 768px) {
+.sm .b-1, .sm .b-2, .sm .b-3, .sm .b-4, .sm .b-5, .sm .b-6, .sm .b-7, .sm .b-8, .sm .b-9, .sm .b-10 {width:100%;}
+
+.blt {padding:0 4% 0 0;}
+.brt {padding:0 0 0 4%;}
+.bli img {float:left;}
+.bri img {float:right;}
+
+.hide-on-desktop {display:none;}
+.hide-on-mobile {display:block;}
+}
+
+/*MD*/
+@media (max-width: 980px) {
+.md .b-1, .md .b-2, .md .b-3, .md .b-4, .md .b-5, .md .b-6, .md .b-7, .md .b-8, .md .b-9, .md .b-10 {width:100%;}
+}
+
+/*LG*/
+@media (max-width: 1200px) {
+.lg .b-1, .lg .b-2, .lg .b-3, .lg .b-4, .lg .b-5, .lg .b-6, .lg .b-7, .lg .b-8, .lg .b-9, .lg .b-10 {width:100%;}
+}
+
+/*XL*/
+@media (max-width: 1600px) {
+.xl .b-1, .xl .b-2, .xl .b-3, .xl .b-4, .xl .b-5, .xl .b-6, .xl .b-7, .xl .b-8, .xl .b-9, .xl .b-10 {width:100%;}
+}
